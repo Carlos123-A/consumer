@@ -8,7 +8,7 @@ public class Program
     {
         var config = new ConsumerConfig
         {
-            BootstrapServers = "18.218.28.236:29092",
+            BootstrapServers = ":29092",
             GroupId = "consumer-group",
             AutoOffsetReset = AutoOffsetReset.Earliest
         };
